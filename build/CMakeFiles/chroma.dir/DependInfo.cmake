@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspace/Chroma-Scripting-Language/src/file.c" "CMakeFiles/chroma.dir/src/file.c.o" "gcc" "CMakeFiles/chroma.dir/src/file.c.o.d"
+  "/workspace/Chroma-Scripting-Language/src/line.c" "CMakeFiles/chroma.dir/src/line.c.o" "gcc" "CMakeFiles/chroma.dir/src/line.c.o.d"
   "/workspace/Chroma-Scripting-Language/src/main.c" "CMakeFiles/chroma.dir/src/main.c.o" "gcc" "CMakeFiles/chroma.dir/src/main.c.o.d"
   )
 

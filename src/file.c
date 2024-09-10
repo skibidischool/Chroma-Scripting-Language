@@ -1,3 +1,5 @@
+#include "line.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "file.h"
@@ -8,7 +10,7 @@ void parseFile(const char* filepath) {
     size_t len = 0;
     ssize_t read;
 
-    file = fopen(filepath, "r");
+    file = fopen(filepath   , "r");
 
     if (file == NULL) {
         printf("Error file could not be loaded!\n");
@@ -16,7 +18,7 @@ void parseFile(const char* filepath) {
     }
 
     while ((read = getline(&line, &len, file)) != -1) {
-        printf("%s", line);
+        parseLine(line);
     }
 
     printf("\n");

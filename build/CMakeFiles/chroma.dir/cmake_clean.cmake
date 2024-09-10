@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/chroma.dir/src/file.c.o"
   "CMakeFiles/chroma.dir/src/file.c.o.d"
+  "CMakeFiles/chroma.dir/src/line.c.o"
+  "CMakeFiles/chroma.dir/src/line.c.o.d"
   "CMakeFiles/chroma.dir/src/main.c.o"
   "CMakeFiles/chroma.dir/src/main.c.o.d"
   "chroma"

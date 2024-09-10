@@ -153,6 +153,30 @@ src/file.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chroma.dir/build.make CMakeFiles/chroma.dir/src/file.c.s
 .PHONY : src/file.c.s
 
+src/line.o: src/line.c.o
+.PHONY : src/line.o
+
+# target to build an object file
+src/line.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chroma.dir/build.make CMakeFiles/chroma.dir/src/line.c.o
+.PHONY : src/line.c.o
+
+src/line.i: src/line.c.i
+.PHONY : src/line.i
+
+# target to preprocess a source file
+src/line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chroma.dir/build.make CMakeFiles/chroma.dir/src/line.c.i
+.PHONY : src/line.c.i
+
+src/line.s: src/line.c.s
+.PHONY : src/line.s
+
+# target to generate assembly for a file
+src/line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chroma.dir/build.make CMakeFiles/chroma.dir/src/line.c.s
+.PHONY : src/line.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/file.o"
 	@echo "... src/file.i"
 	@echo "... src/file.s"
+	@echo "... src/line.o"
+	@echo "... src/line.i"
+	@echo "... src/line.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

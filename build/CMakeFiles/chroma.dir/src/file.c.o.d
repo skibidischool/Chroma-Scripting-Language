@@ -1,6 +1,7 @@
 CMakeFiles/chroma.dir/src/file.c.o: \
  /workspace/Chroma-Scripting-Language/src/file.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+ /usr/include/stdc-predef.h \
+ /workspace/Chroma-Scripting-Language/src/line.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

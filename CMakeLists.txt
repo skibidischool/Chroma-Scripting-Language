@@ -4,4 +4,9 @@ project(chroma LANGUAGES C)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
-add_executable(chroma src/main.c src/file.c)
+set(SRC_FILES
+    src/file.c
+    src/line.c
+)
+
+add_executable(chroma src/main.c ${SRC_FILES})
