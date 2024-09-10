@@ -1,0 +1,3 @@
+/workspace/Chroma-Scripting-Language/build/CMakeFiles/chroma.dir
+/workspace/Chroma-Scripting-Language/build/CMakeFiles/edit_cache.dir
+/workspace/Chroma-Scripting-Language/build/CMakeFiles/rebuild_cache.dir
