@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/chroma.dir/src/main.c.o CMakeFiles/chroma.dir/src/file.c.o CMakeFiles/chroma.dir/src/line.c.o -o chroma
